@@ -9,8 +9,8 @@ export default function About() {
         <div>
           <p className="font-mono text-sm text-cyan-400">04 / ABOUT</p>
           <h2 className="mt-4 text-4xl font-bold md:text-6xl">
-            Engineer by training.
-            <span className="block text-zinc-500">AI builder by choice.</span>
+            Engineer by training
+            <span className="block text-zinc-500">AI builder by choice</span>
           </h2>
         </div>
 

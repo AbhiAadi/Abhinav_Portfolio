@@ -10,7 +10,7 @@ export default function NeuralNetwork() {
       <div className="mb-14">
         <p className="font-mono text-sm text-cyan-400">01 / PROJECT GRAPH</p>
         <h2 className="mt-4 text-4xl font-bold md:text-6xl">
-          My work,<span className="text-zinc-500"> connected.</span>
+          My work,<span className="text-zinc-500"> connected</span>
         </h2>
         <p className="mt-5 max-w-2xl leading-7 text-zinc-400">
           Research, experiments and production systems connected as a visual

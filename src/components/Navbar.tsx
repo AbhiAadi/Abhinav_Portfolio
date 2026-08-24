@@ -24,7 +24,7 @@ export default function Navbar() {
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-6">
         <a href="#" className="flex items-center gap-2 font-semibold">
           <BrainCircuit className="text-cyan-400" size={22} />
-          <span>AA<span className="text-cyan-400">.</span></span>
+          <span>AA<span className="text-cyan-400"></span></span>
         </a>
 
         <div className="hidden items-center gap-7 md:flex">

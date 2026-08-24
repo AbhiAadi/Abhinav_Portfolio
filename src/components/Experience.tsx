@@ -5,8 +5,13 @@ const experiences = [
     company: "ZS",
     role: "Decision Analytics Associate",
     period: "Jul 2025 — Aug 2026",
-    description:
+    description:[
       "Built analytics automation, reusable machine learning workflows and AI-powered process automation.",
+      "Reduced reporting turnaround time by 90% by automating analytics pipelines and ETL workflows using SQL and Python.",
+      "Developed generalized machine learning model using KNN and XGBoost for experimentation tasks, enabling multiple teams to experiment with different models and configurations.",
+      "Automated Jira ticket creation from email conversations using AI, eliminating manual effort and improving workflow efficiency.",
+      "Transformed multi-source datasets into structured formats using Python and SQL, improving data quality, consistency, and processing efficiency"
+    ],
     metrics: [
       "90% reporting turnaround reduction",
       "Reusable KNN & XGBoost models",
@@ -17,9 +22,13 @@ const experiences = [
     company: "Mindcase",
     role: "ML Engineer Intern",
     period: "May 2024 — Nov 2024",
-    description:
+    description:[
       "Worked on document intelligence, embeddings, RAG and production-oriented AI pipelines.",
-    metrics: [
+      "Automated data extraction and preprocessing pipelines for more than 10 file formats, reducing processing time by 40%.",
+      "Built multithreaded data pipelines for text chunking and embedding generation using LangChain and OpenAI (Ada-2), reducing latency by 84%.",
+      "Implemented RAG with hybrid search and FastAPI-based automation on Azure, improving top-3 query relevance by 25% and reducing client operating time by 80%."
+    ],
+      metrics: [
       "40% faster data processing",
       "84% lower embedding latency",
       "25% improvement in top-3 relevance",
@@ -35,7 +44,7 @@ export default function Experience() {
 
       <h2 className="mt-4 text-4xl font-bold md:text-6xl">
         From experiments
-        <span className="text-zinc-500"> to production.</span>
+        <span className="text-zinc-500"> to production</span>
       </h2>
 
       <div className="mt-16 space-y-14">
@@ -55,9 +64,13 @@ export default function Experience() {
               <p className="font-mono text-sm text-zinc-500">{experience.period}</p>
             </div>
 
-            <p className="mt-6 max-w-3xl leading-7 text-zinc-400">
-              {experience.description}
-            </p>
+            <div className="mt-6 max-w-6xl space-y-3">
+              {experience.description.map((point:string) => (
+                <p key={point} className="leading-7 text-zinc-400">
+                  • {point}
+                </p>
+              ))}
+            </div>
 
             <div className="mt-6 flex flex-wrap gap-3">
               {experience.metrics.map((metric) => (

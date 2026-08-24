@@ -37,7 +37,7 @@ export default function Hero() {
               className="glow-text text-6xl font-extrabold tracking-tight md:text-8xl"
             >
               Abhinav
-              <span className="block text-cyan-400">Adarsh.</span>
+              <span className="block text-cyan-400">Adarsh</span>
             </motion.h1>
 
             <motion.p

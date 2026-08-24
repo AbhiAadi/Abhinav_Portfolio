@@ -35,7 +35,7 @@ export default function Skills() {
 
         <h2 className="mt-4 text-4xl font-bold md:text-6xl">
           The stack behind
-          <span className="text-zinc-500"> the systems.</span>
+          <span className="text-zinc-500"> the systems</span>
         </h2>
 
         <div className="mt-14 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
