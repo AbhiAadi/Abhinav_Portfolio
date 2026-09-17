@@ -18,7 +18,7 @@ export default function Contact() {
         </p>
 
         <a
-          href="mailto:adarshabhinav@gmail.com"
+          href="mailto:abhinav04adarsh@gmail.com"
           className="mt-10 inline-flex items-center gap-3 rounded-full bg-cyan-400 px-6 py-3 font-medium text-black transition hover:bg-cyan-300"
         >
           <Mail size={18} />
